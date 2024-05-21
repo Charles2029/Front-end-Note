@@ -8,9 +8,9 @@ btn.addEventListener("click", () => {
   input.value = "";
   input.focus();
   for (let i = 1; i <= num; i++) {
-    let sqRoot = Math.sqrt(i);
+    let sqRoot = Math.sqrt(i);// if num=4 . the i will add to 5
     if (Math.floor(sqRoot) !== sqRoot) {
-      continue;
+      continue;//continue mean jump over (跳过特定的条件)；
     }
     para.textContent += `${i} `;
   }
