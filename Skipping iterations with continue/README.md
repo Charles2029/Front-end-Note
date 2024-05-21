@@ -19,3 +19,4 @@ Warning: With while and do...while — as with all loops — you must make sure 
 import :
 With while and do...while - as with all loops - you must make sure that the initializer is incremented or , depending on the case, 
 decremented, so the condition eventually becomes false. If not , the loop will go on forever, and  either the browser will force it to stop, or it will crash. This is called an infinite loop.
+![alt text](image.png)

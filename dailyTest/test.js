@@ -121,3 +121,22 @@ while (i>= 0) {
 
   i--;
 }
+
+const group =['alex','isabella','olivia','charles','judy',];
+
+const admitted = document.querySelector('.admitted');
+const refused = document.querySelector('.refused');
+admitted.textContent ='Admit:';
+refused.textContent ='Refuse:';
+
+
+for (const mem of group) {
+  if (mem === 'Phil' || mem === 'Lola') {
+    refused.textContent += `${person}, `;
+  } else {
+    admitted.textContent += `${person}, `;
+  }
+}
+refused.textContent = refused.textContent.slice(0,refused.textContent.length-2)+'.';
+admitted.textContent = admitted.textContent.slice(0,admitted.textContent.length-2)+'.';
+
