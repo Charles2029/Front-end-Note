@@ -63,4 +63,61 @@ for (let i=0;i<children.length;i++){
 }
 console.log(myBestChildren);
 
+const students = ["Pete", "Biggles", "Jasmine"];
 
+let myFavoriteStudents = "My students are called ";
+
+let i = 0;
+
+while (i < students.length) {
+  if (i === students.length - 1) {
+    myFavoriteStudents+= `and ${students[i]}.`;
+  } else {
+    myFavoriteStudents += `${students[i]}, `;
+  }
+
+  i++;
+}
+
+console.log(myFavoriteStudents); // "My cats are called Pete, Biggles, and Jasmine."
+
+
+
+
+
+const output = document.querySelector('.output');
+output.innerHTML ='';
+
+
+
+let index =10;
+
+while (index >=0){
+    const para =document.createElement('p');
+    if(index ===10){
+        para.textContent =`Countdown ${index}`;
+    }else if(index ===0){
+        para.textContent ='Blast off!';
+    }else{
+        para.textContent ='index';
+    }
+
+    output.appendChild(para);
+    i--;
+}
+
+
+while (i>= 0) {
+  const para = document.createElement('p');
+  if (i === 10) {
+    para.textContent = `Countdown ${i}`;
+  } else if (i === 0) {
+    para.textContent = 'Blast off!';
+  } else {
+    para.textContent = i;
+  }
+
+  output.appendChild(para);
+
+  i--;
+}
