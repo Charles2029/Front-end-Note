@@ -10,10 +10,11 @@ const upperFamily= family.map(toUpper);
 console.log(upperFamily);
 
 
-function iName(name){
+/*function iName(name){
     return name.startsWith("I");
-}
+}*/
+
 const newName=upperFamily;
 console.log(newName);
-const filtered = newName.filter(iName);
+const filtered = newName.filter((name) => name.startsWith("I"));
 console.log(filtered);
