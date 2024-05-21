@@ -16,7 +16,8 @@ const contacts = [
     input.focus();
     para.textContent = "";
     for (const contact of contacts) {
-      const splitContact = contact.split(":");
+      const splitContact = contact.split(":");// this place split the contact to array use : example [charles,56262199]
+      
       if (splitContact[0].toLowerCase() === searchName) {
         para.textContent = `${splitContact[0]}'s number is ${splitContact[1]}.`;
         break;
