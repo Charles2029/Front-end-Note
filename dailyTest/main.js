@@ -18,3 +18,9 @@ const newName=upperFamily;
 console.log(newName);
 const filtered = newName.filter((name) => name.startsWith("I"));
 console.log(filtered);
+
+    for (let i=0;i<10;i++){
+        const result =`${i} x ${i} = ${i * i}`;
+        console.log(result);
+    }
+ 
