@@ -27,8 +27,14 @@
   </body>
   <script>
     const myArray = ['tomatoes', 'chick peas', 'onions', 'rice', 'black beans'];
-    const list = document.createElement('ul');
+    const list = document.createElement('ol');
+     
+    for( item of myArray){
+      const listItem = document.createElement('li');
+      listItem.textContent=item;
 
+      list.appendChild(listItem);}
+    
     // Add your code here
 
     // Don't edit the code below here!
