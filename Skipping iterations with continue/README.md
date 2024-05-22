@@ -51,3 +51,11 @@ do{
     //code to run
     final-expression
 }while(condition)
+
+ It is more complex than HTML, and creating your content with JavaScript also has other issues attached to it (such as not being readable by search engines).
+
+ It is more complex than HTML, and creating your content 
+ with JavaScript also has other issues attached to it (
+  such as not being readable by search engines
+ ).
+ 
