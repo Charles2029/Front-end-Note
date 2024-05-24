@@ -11,18 +11,12 @@
     </style>
   </head>
   <body>
-    <button>Change color</button>
-    <script>
-      const btn = document.querySelector('button');
+    <label>Enter your name:</label>
+    <input id="textBox" type="text" />
+    <div id="output"></div>
+    
 
-      function random(number) {
-        return Math.floor(Math.random() * (number+1));
-      }
-
-      btn.addEventListener('mouseout', () => {
-        const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
-        document.body.style.backgroundColor = rndCol;
-      });
-    </script>
+    
+   <script src="/events/main.js"></script>
   </body>
 </html>
