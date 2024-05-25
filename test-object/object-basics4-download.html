@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Object basics: Task 4</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+    </section>
+
+  </body>
+  <script>
+    const cat = {
+      name : 'Bertie',
+      breed : 'Cymric',
+      color : 'white',
+      greeting: function() {
+        console.log(`Hello, said ${ this.name } the ${ this.breed }.`);
+      }
+    }
+
+    // Define a Cat constructor function
+function Cat(name, breed, color) {
+  this.name = name;
+  this.breed = breed;
+  this.color = color;
+
+  // Define the greeting method for each Cat instance
+  this.greeting = function() {
+    console.log(`Hello, said ${this.name} the ${this.breed}.`);
+  };
+}
+
+// Create cat1 instance
+let cat1 = new Cat('Bertie', 'Cymric', 'black');
+cat1.greeting(); // Output: Hello, said Bertie the Cymric.
+
+// Create cat2 instance
+let cat2 = new Cat('Whiskers', 'Siamese', 'white');
+cat2.greeting(); // Output: Hello, said Whiskers the Siamese.
+  </script>
+
+</html>
