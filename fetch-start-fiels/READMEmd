@@ -1,0 +1,4 @@
+#  how to set a local testing server.
+To get around this, we need to test the example by running it through a local web server. To find out how to do this, read our guide to setting up a local testing server.
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
