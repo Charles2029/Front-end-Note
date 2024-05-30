@@ -111,3 +111,23 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introduci
 One concern from all this is that if multiple threads can have access to the same shared data, it's possible for them to change it independently and unexpectedly (with respect to each other). This can cause bugs that are hard to find.
 
 One concern from all this is that if multiple threads can have access to the same shared data, it's possible for them to change  it independently and unexpectedly (with respect to each other ). This can cause bugs that are hard to find.
+
+## A RESTful API — NYTimes
+Now let's look at another API example — the New York Times API. This API allows you to retrieve New York Times news story information and display it on your site. This type of API is known as a RESTful API — instead of getting data using the features of a JavaScript library like we did with Mapquest, we get data by making HTTP requests to specific URLs, with data like search terms and other properties encoded in the URL (often as URL parameters). This is a common pattern you'll encounter with APIs.
+
+
+Now let's look at another API example - the New York Times API. This API allows you to retrieve
+New York Times news story information and  display it on your site. This type of API is known as 
+a RESTful API -instead o getting data using the features of a JavaScript library like we did with Mapquest, we get data by making HTTP requests to specific URLs, with data like search terms and other properties encoded in the URL (often as URL parameters). This is a common pattern you'll encounter with APIs.
+
+### An approach for using third-party APIs
+
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+AppID:900a8cb7-df4c-47b3-b31e-5907da6c5ffc
+
+APIKey:  eAuNlNAiYP0gdRSEs3l3faq1B3lgT0TV
+Secrect: VBvpofzBdCSV5rYJ
+
